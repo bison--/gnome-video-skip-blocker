@@ -1,0 +1,10 @@
+[Desktop Entry]
+Path=/home/bison/projects/github/gnome-video-skip-blocker
+Icon=/home/bison/projects/github/gnome-video-skip-blocker/gnome-video-skip-blocker_icon.png
+Exec=/home/bison/projects/github/gnome-video-skip-blocker/main.py
+Version=4
+Type=Application
+Categories=Development
+Name=Video Skip Blocker
+StartupWMClass=gnome-video-skip-blocker
+Terminal=false
