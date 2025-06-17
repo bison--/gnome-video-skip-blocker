@@ -1,5 +1,5 @@
 # gnome-video-skip-blocker
-blocks the gnome-shell workspace switch brwoser video/youtube chapter skip bug
+blocks the gnome-shell workspace switch browser video/YouTube chapter skip bug
 
 ## WHAT?
 
