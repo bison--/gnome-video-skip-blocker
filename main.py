@@ -33,6 +33,11 @@ def check_debug():
 root = Tk()
 root.title("gnome-shell video skip blocker")
 root.geometry("380x100")
+icon = PhotoImage(file="gnome-video-skip-blocker_icon.png")
+root.iconphoto(True, icon)
+#root.wm_iconbitmap(bitmap="@gnome-video-skip-blocker_icon.xbm")
+#root.tk.call('wm', 'iconphoto', root._w, icon)
+
 frm = ttk.Frame(root, padding=10)
 frm.grid()
 ttk.Button(frm, text="new smoll skip blocker window", command=open_anti_skip_window).grid(column=1, row=0)
